@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:background="#F8F8FF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="224dp"
+        android:src="@drawable/log" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haji Cerdas"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:textColor="@color/orangeRed"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Porsi"
+        android:layout_margin="5dp"
+        android:inputType="number"
+        android:fontFamily="casual"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:fontFamily="casual"
+        android:layout_margin="5dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:textColor="@color/mintCream"
+        android:background="@color/orangeRed"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:id="@+id/tv_forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lupa Password?"
+        android:layout_margin="10dp"
+        android:clickable="true"/>
+
+</LinearLayout>
